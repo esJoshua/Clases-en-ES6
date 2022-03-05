@@ -4,9 +4,13 @@
   "description": "",
   "main": "assets/js/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel assets/js -d dist/js"
   },
-  "author": "",
-  "type":"module",
-  "license": "ISC"
+  "author": "Joshua Espinoza",
+  "type": "module",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5"
+  }
 }
