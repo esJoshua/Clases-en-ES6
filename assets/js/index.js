@@ -9,7 +9,6 @@ const theadId = document.getElementById("theadId");
 const tbodyId = document.getElementById("tbodyId");
 const btnEliminarId = document.getElementById("btnEliminarId");
 
-
 const resetInput = () => {
   nombreClienteId.value = "";
   montoBrutoAnualId.value = "0";

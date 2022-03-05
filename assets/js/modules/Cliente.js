@@ -14,7 +14,8 @@ export default class Cliente {
 
   calcularImpuesto() {
     return (
-      (this._impuesto().montoBrutoAnual - this._impuesto().deducciones) * 21/100
+      ((this._impuesto().montoBrutoAnual - this._impuesto().deducciones) * 21) /
+      100
     );
   }
 }
